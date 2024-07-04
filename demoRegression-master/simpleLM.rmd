@@ -21,8 +21,8 @@ bears$MONTH<- as.factor(bears$MONTH)
 ## Model WEIGHT ~ NECK  this is an example  
 
 ```{r}
-simp <- lm(WEIGHT~NECK,data=bears)
-plot(WEIGHT~NECK,data=bears)
+simp <- lm(WEIGHT~AGE,data=bears)
+plot(WEIGHT~AGE,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
