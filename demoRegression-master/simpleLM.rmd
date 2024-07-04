@@ -32,3 +32,4 @@ summary.lm(simp)
 
 
 Summary of all plots
+For Neck- The rse for this graph was 43.91 while the Adjusted R-squared was 0.87.|
