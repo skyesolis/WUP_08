@@ -40,6 +40,8 @@ For Age- The rse fot this graph was 81.47 while the Adjusted R-squared was 0.552
 
 For Headlen- The rse fot this graph was 67.81 while the Adjusted R-squared was 0.69
 
+For Headwth- The rse fot this graph was 76.41 while the Adjusted R-squared was 0.6064.
+
 ```{r}
 simp <- lm(WEIGHT~HEADWTH,data=bears)
 plot(WEIGHT~HEADWTH,data=bears)
