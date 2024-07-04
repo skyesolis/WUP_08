@@ -51,3 +51,10 @@ plot(WEIGHT~HEADLEN,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
+
+```{r}
+simp <- lm(WEIGHT~LENGTH,data=bears)
+plot(WEIGHT~LENGTH,data=bears)
+abline(simp)
+summary.lm(simp)
+```
